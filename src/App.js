@@ -3,7 +3,6 @@ import './App.css';
 import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
 import Main from './components/layouts/Main';
-import Quiz from './components/Quiz/Quiz';
 import Statistics from './components/Statistics/Statistics';
 
 function App() {
