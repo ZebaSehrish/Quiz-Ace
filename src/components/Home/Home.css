@@ -1,22 +1,23 @@
 .home-items {
-    display: flex;
+    /* display: flex; */
     border: 5px solid white;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     background-color: aliceblue;
 }
 
+
 .home-items img {
     width: 500px;
-    margin: 80px;
+    /* margin: 80px;
     margin-left: 0;
-    margin-right: 200px;
+    margin-right: 200px; */
 
 }
 
 .home-description {
-    margin: 200px;
+    /* margin: 200px;
     margin-right: 50px;
-    margin-top: 100px;
+    margin-top: 100px; */
     color: rgb(89, 89, 203);
 }
 
