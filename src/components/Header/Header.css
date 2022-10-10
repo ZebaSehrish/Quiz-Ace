@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* margin: 10px; */
+    background-color: rgb(184, 122, 243);
+}
+
+.header a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.title {
+    margin-left: 10px;
+    color: white;
+}
+
+.navbar {
+    margin-left: 50px;
+    font-weight: 800;
+}
