@@ -6,7 +6,7 @@ const QuizQuestions = ({ quizQuestions }) => {
     const { question } = quizQuestions;
     return (
         <div>
-            <div className='grid grid-cols-1 m-10 p-10 border-4 border-white rounded-lg'>
+            <div className='grid grid-cols-1 m-10 mx-52 p-10 border-4 border-white rounded-lg  text-violet-900'>
                 Quiz Question: {question}
                 <div className='option-container grid grid-cols-2 gap-3 p-10'>
                     {

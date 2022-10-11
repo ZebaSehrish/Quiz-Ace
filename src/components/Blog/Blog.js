@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='grid grid-cols-3 gap-3 m-20 ' >
+        <div className='sm:grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-3 m-20 mt-40 ' >
             <div className=' rounded-lg bg-blue-100 border-4 border-white text-violet-900 p-5'>
                 <h4 className='font-bold text-2xl'>* What is the purpose of react router ? </h4>
                 <p className='px-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptas illum error tenetur facilis assumenda ad pariatur soluta, fugit ratione repellendus eum possimus, enim delectus autem! Laboriosam suscipit labore fugiat.</p>
