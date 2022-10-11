@@ -8,14 +8,16 @@ const QuizDetails = () => {
     const { name } = quizDetails.data;
     return (
         <div>
-            <p className='text-2xl text-violet-800 m-5 p-5  font-bold '>Quiz of {name}</p>
+            <p className='text-2xl text-violet-800 m-5 mt-20 font-bold '>Quiz of {name}</p>
+            <div className='sm:m-10 lg:m-20'>
+                {
+                    quizDetails.data.questions.map(quizQuestions => <QuizQuestions
+                        key={quizQuestions.id}
+                        quizQuestions={quizQuestions}
+                    ></QuizQuestions>)
+                }
+            </div>
 
-            {
-                quizDetails.data.questions.map(quizQuestions => <QuizQuestions
-                    key={quizQuestions.id}
-                    quizQuestions={quizQuestions}
-                ></QuizQuestions>)
-            }
         </div>
     );
 };

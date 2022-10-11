@@ -1,0 +1,23 @@
+.questions {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+}
+
+.eye-icon:hover {
+    color: white;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(99, 21, 172);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    /* z-index: 1; */
+}
+
+.eye-icon:hover .tooltip-text {
+    visibility: visible;
+}
