@@ -1,0 +1,12 @@
+.tooltip-text-2 {
+    visibility: hidden;
+    width: 120px;
+    padding: 5px;
+    background-color: rgb(154, 55, 230);
+    border-radius: 5px;
+    color: white;
+}
+
+.card:hover .tooltip-text-2 {
+    visibility: visible;
+}

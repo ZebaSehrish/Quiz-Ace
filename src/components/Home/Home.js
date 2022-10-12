@@ -17,14 +17,14 @@ const Home = () => {
                     <img className='sm:m-10 md:ml-32 lg:m-20 ' src="course_thumbnail_default_5060.jpg" alt="" />
                 </div>
             </section>
-            <div className='sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+            <button className=' sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                 {
                     quizTopics.data.map(quiz => <Quiz
                         key={quiz.id}
                         quiz={quiz}
                     ></Quiz>)
                 }
-            </div>
+            </button>
         </div>
     );
 };
