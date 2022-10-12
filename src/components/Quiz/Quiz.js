@@ -8,8 +8,6 @@ import { ToastContainer } from 'react-toastify';
 const Quiz = ({ quiz }) => {
     const { id, name, logo, total } = quiz;
 
-
-
     return (
         <div>
             <div className='card hover:border-violet-500 m-12 p-4 bg-blue-100 border-4 border-white rounded-t-lg'>

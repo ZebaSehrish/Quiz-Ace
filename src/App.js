@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Main from './components/layouts/Main';
 import QuizDetails from './components/QuizDetails/QuizDetails';
 import Statistics from './components/Statistics/Statistics';
+import UndefinedRoute from './components/UndefinedRoute/UndefinedRoute';
 
 function App() {
   const router = createBrowserRouter([
@@ -34,6 +35,10 @@ function App() {
           element: <Blog></Blog>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <UndefinedRoute></UndefinedRoute>
     }
   ])
   return (

@@ -30,7 +30,7 @@ const QuizQuestions = ({ quizQuestions }) => {
 
                 </div>
 
-                <div className='option-container font-semibold sm:grid grid-cols-1 lg:grid-cols-2 gap-3 p-10'>
+                <div className=' option-container font-semibold sm:grid grid-cols-1 lg:grid-cols-2 gap-3 p-10'>
                     {
                         quizQuestions.options.map(option => <Options
                             option={option}
