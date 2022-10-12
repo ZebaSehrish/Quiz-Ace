@@ -1,20 +1,24 @@
 import React from 'react';
 import Options from '../Options/Options';
 import './QuizQuestions.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { EyeIcon } from '@heroicons/react/24/solid';
 
 const QuizQuestions = ({ quizQuestions }) => {
     const { question, correctAnswer } = quizQuestions;
+
     const handleAlert = (option) => {
         if (option === correctAnswer) {
-            alert('correct answer');
+            toast('Correct Answer');
         }
         else {
-            alert('incorrect answer');
+            toast('Incorrect Answer');
         }
     }
+
     const handleEyeIcon = () => {
-        alert(correctAnswer);
+        toast(correctAnswer);
     }
 
     return (
@@ -30,12 +34,13 @@ const QuizQuestions = ({ quizQuestions }) => {
                     {
                         quizQuestions.options.map(option => <Options
                             option={option}
-                            handleAlert={handleAlert}></Options>)
+                            handleAlert={handleAlert}
+                        ></Options>)
                     }
                 </div>
             </div>
         </div >
     );
 };
-// m-10 mx-52 p-10
+
 export default QuizQuestions;

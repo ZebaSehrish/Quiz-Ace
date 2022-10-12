@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
-import './Header.css';
 import { Link } from 'react-router-dom';
+import './Header.css';
+
 //import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 
 const Header = () => {
-    // const [open, setOpen] = useState(false);
     return (
         <div>
             <nav className='header p-5 font-semibold text-xl'>
-                <div className='title text-3xl'>
-                    <h2> QuizAce</h2>
+                <div className='title font-bold text-3xl text-white'>
+                    <Link to='/'>Quiz Ace</Link>
                 </div>
                 <div className='navbar text-white '>
                     <Link to='/'>Home</Link>
