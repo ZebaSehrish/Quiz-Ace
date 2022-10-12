@@ -14,8 +14,7 @@ const Blog = () => {
             </div>
 
             <div className='p-5 rounded-lg bg-blue-100 border-4 border-white text-violet-900'>
-                <h4 className='font-bold text-2xl'>* Explain useRef.  </h4>
-                <p className='mt-5 px-10'> Essentially, useRef is like a “box” that can hold a mutable value in its .current property. You might be familiar with refs primarily as a way to access the DOM.</p>
+
             </div>
         </div>
     );
