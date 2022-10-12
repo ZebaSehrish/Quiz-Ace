@@ -17,7 +17,7 @@ const QuizQuestions = ({ quizQuestions }) => {
         }
     }
 
-    const handleEyeIcon = () => {
+    const handleEyeIcon = (correctAnswer) => {
         toast(correctAnswer);
     }
 
@@ -26,7 +26,7 @@ const QuizQuestions = ({ quizQuestions }) => {
             <div className='p-20 mb-10 bg-purple-400 border-4 border-white rounded-lg  text-violet-900'>
                 <div className='questions'>
                     <p className='text-white font-semibold text-lg pl-20'> Quiz Question: {question}</p>
-                    <button onClick={() => handleEyeIcon()} className='eye-icon'><EyeIcon className='w-6 h-6'></EyeIcon><span class="tooltip-text">See the correct answer</span></button>
+                    <button onClick={() => handleEyeIcon(correctAnswer)} className='eye-icon'><EyeIcon className='w-6 h-6'></EyeIcon><span class="tooltip-text">See the correct answer</span></button>
 
                 </div>
 
