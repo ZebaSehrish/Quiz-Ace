@@ -5,7 +5,7 @@ const UndefinedRoute = () => {
     return (
         <div className=''>
             <p className='flex justify-center text-violet-300'><FaceFrownIcon className=' w-32 h-32 '></FaceFrownIcon></p>
-            <p className='font-bold text-3xl text-violet-500'>Not Found!!</p>
+            <p className='font-bold text-3xl text-violet-500'>404 | Page Not Found!!</p>
         </div>
     );
 };
